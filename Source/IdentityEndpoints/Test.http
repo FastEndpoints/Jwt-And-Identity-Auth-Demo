@@ -1,0 +1,7 @@
+###
+
+GET http://localhost:5026/idn-protected
+
+###
+
+GET http://localhost:5026/idn-login

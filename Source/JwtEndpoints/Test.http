@@ -1,0 +1,9 @@
+###
+
+@jwt_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2OTIyNzA5MjksImV4cCI6MjAwNzg5MDEyOSwiaWF0IjoxNjkyMjcwOTI5fQ.4isa6Z9Hu9Zxa70lewYe90kdV3dTJqh0YwHKHpeujvs
+GET http://localhost:5026/jwt-protected
+Authorization: Bearer {{jwt_token}}
+
+###
+
+GET http://localhost:5026/jwt-login
